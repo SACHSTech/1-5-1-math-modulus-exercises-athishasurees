@@ -2,12 +2,20 @@ class Power extends ConsoleProgram {
 
   /**
   * Description
-  * @author:
+  * @author: A.Surees
   */
   
   public void run() {
     
-    // start coding here
-    
+   //variables 
+   double dblBase; 
+   double dblExponent; 
+
+   //number 
+   dblBase = readInt("What is your base"); 
+   dblExponent = readInt("What is your exponent");
+
+   //print out number 
+   System.out.println("Your number is:" + Math.pow(dblBase, dblExponent));
   }
 }

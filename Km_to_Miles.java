@@ -3,12 +3,18 @@ class Km_to_Miles extends ConsoleProgram {
 
   /**
   * Description
-  * @author:
+  * @author: A.Surees 
   */
   
   public void run() {
     
-    // start coding here
+    // inputs 
+    double kilometers = readDouble ("Kilometers?"); 
     
+    //calculation 
+    double miles = kilometers * 0.621371;
+
+    //print miles 
+    System.out.println(miles);
   }
 }
